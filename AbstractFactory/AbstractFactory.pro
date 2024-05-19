@@ -17,7 +17,15 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 HEADERS += \
     classunit.h \
     cppclassunit.h \
+    cppmethodunit.h \
+    cppprintoperatorunit.h \
+    factory.h \
     javaclassunit.h \
+    javamethodunit.h \
+    javaprintoperatorunit.h \
     methodunit.h \
     printoperatorunit.h \
+    sharpclassunit.h \
+    sharpmethodunit.h \
+    sharpprintoperatorunit.h \
     unit.h
