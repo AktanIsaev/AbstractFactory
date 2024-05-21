@@ -1,7 +1,7 @@
 #ifndef PROGRAMFACTORY_H
 #define PROGRAMFACTORY_H
 
-#include "factory.h"
+#include "Factory.h"
 
 #include <iostream>
 

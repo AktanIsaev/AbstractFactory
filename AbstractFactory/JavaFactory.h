@@ -1,11 +1,11 @@
 #ifndef JAVAFACTORY_H
 #define JAVAFACTORY_H
 
-#include "factory.h"
+#include "Factory.h"
 
-#include "javaclassunit.h"
-#include "javamethodunit.h"
-#include "javaprintoperatorunit.h"
+#include "JavaClassUnit.h"
+#include "JavaMethodUnit.h"
+#include "JavaPrintOperatorUnit.h"
 
 class java_factory: public factory
 {

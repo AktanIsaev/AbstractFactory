@@ -1,7 +1,7 @@
 #ifndef JAVAMETHODUNIT_H
 #define JAVAMETHODUNIT_H
 
-#include "methodunit.h"
+#include "MethodUnit.h"
 
 class java_method_unit:public MethodUnit
 {

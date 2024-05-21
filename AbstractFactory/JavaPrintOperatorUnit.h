@@ -1,7 +1,7 @@
 #ifndef JAVAPRINTOPERATORUNIT_H
 #define JAVAPRINTOPERATORUNIT_H
 
-#include "printoperatorunit.h"
+#include "PrintOperatorUnit.h"
 
 class java_print_operator_unit: public PrintOperatorUnit
 {

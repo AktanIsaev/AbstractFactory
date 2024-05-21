@@ -2,11 +2,11 @@
 #define SHARPFACTORY_H
 
 
-#include "factory.h"
+#include "Factory.h"
 
-#include "sharpclassunit.h"
-#include "sharpmethodunit.h"
-#include "sharpprintoperatorunit.h"
+#include "SharpClassUnit.h"
+#include "SharpMethodUnit.h"
+#include "SharpPrintOperatorUnit.h"
 
 class sharp_factory: public factory
 {

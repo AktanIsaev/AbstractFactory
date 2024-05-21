@@ -15,21 +15,21 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
 HEADERS += \
-    classunit.h \
-    cppclassunit.h \
-    cppfactory.h \
-    cppmethodunit.h \
-    cppprintoperatorunit.h \
-    factory.h \
-    javaclassunit.h \
-    javafactory.h \
-    javamethodunit.h \
-    javaprintoperatorunit.h \
-    methodunit.h \
-    printoperatorunit.h \
-    programfactory.h \
-    sharpclassunit.h \
-    sharpfactory.h \
-    sharpmethodunit.h \
-    sharpprintoperatorunit.h \
-    unit.h
+    ClassUnit.h \
+    CppClassUnit.h \
+    CppFactory.h \
+    CppMethodUnit.h \
+    CppPrintOperatorUnit.h \
+    Factory.h \
+    JavaClassUnit.h \
+    JavaFactory.h \
+    JavaMethodUnit.h \
+    JavaPrintOperatorUnit.h \
+    MethodUnit.h \
+    PrintOperatorUnit.h \
+    ProgramFactory.h \
+    SharpClassUnit.h \
+    SharpFactory.h \
+    SharpMethodUnit.h \
+    SharpPrintOperatorUnit.h \
+    Unit.h

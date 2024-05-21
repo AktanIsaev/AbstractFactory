@@ -1,7 +1,7 @@
 #ifndef SHARPPRINTOPERATORUNIT_H
 #define SHARPPRINTOPERATORUNIT_H
 
-#include "printoperatorunit.h"
+#include "PrintOperatorUnit.h"
 
 class sharp_print_operator_unit:public PrintOperatorUnit
 {

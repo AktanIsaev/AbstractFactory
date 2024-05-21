@@ -1,7 +1,7 @@
 #ifndef CPPCLASSUNIT_H
 #define CPPCLASSUNIT_H
 
-#include "classunit.h"
+#include "ClassUnit.h"
 
 class cpp_class_unit :public ClassUnit
 {

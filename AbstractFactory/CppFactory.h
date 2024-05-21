@@ -1,11 +1,11 @@
 #ifndef CPPFACTORY_H
 #define CPPFACTORY_H
 
-#include "factory.h"
+#include "Factory.h"
 
-#include "cppclassunit.h"
-#include "cppmethodunit.h"
-#include "cppprintoperatorunit.h"
+#include "CppClassUnit.h"
+#include "CppMethodUnit.h"
+#include "CppPrintOperatorUnit.h"
 
 class cpp_factory:public factory
 {

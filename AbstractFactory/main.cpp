@@ -1,10 +1,10 @@
 #include <iostream>
 
 
-#include "cppfactory.h"
-#include "javafactory.h"
-#include "sharpfactory.h"
-#include "programfactory.h"
+#include "CppFactory.h"
+#include "JavaFactory.h"
+#include "SharpFactory.h"
+#include "ProgramFactory.h"
 
 int main()
 {

@@ -1,7 +1,7 @@
 #ifndef CPPMETHODUNIT_H
 #define CPPMETHODUNIT_H
 
-#include "methodunit.h"
+#include "MethodUnit.h"
 
 class cpp_method_unit : public MethodUnit
 {

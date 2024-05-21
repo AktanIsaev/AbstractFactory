@@ -1,9 +1,9 @@
 #ifndef FACTORY_H
 #define FACTORY_H
 
-#include "classunit.h"
-#include "methodunit.h"
-#include "printoperatorunit.h"
+#include "ClassUnit.h"
+#include "MethodUnit.h"
+#include "PrintOperatorUnit.h"
 
 #include <iostream>
 class factory
