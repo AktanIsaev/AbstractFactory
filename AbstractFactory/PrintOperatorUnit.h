@@ -4,13 +4,14 @@
 #include <iostream>
 #include "Unit.h"
 
-class PrintOperatorUnit:public Unit
+class PrintOperatorUnit: public Unit
 {
 public:
-    PrintOperatorUnit (const std::string& text): m_text(text){}
+    // Конструктор класса, принимающий текст оператора вывода
+    PrintOperatorUnit(const std::string& text): m_text(text){}
 
 protected:
-    std::string m_text;
+    std::string m_text; // Текст оператора вывода
 };
 
 #endif // PRINTOPERATOR_UNIT_H

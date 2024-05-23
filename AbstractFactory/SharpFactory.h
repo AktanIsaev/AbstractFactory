@@ -11,7 +11,7 @@
 class sharp_factory: public factory
 {
 public:
-    std::shared_ptr<ClassUnit> Create_Class(const std::string name)
+    std::shared_ptr<ClassUnit> Create_Class(const std::string &name)
     {
         return std::make_shared<sharp_class_unit>(name);
     }

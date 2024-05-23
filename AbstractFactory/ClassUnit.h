@@ -8,6 +8,7 @@
 class ClassUnit : public Unit
 {
 public:
+    // Перечисление модификаторов доступа для класса
     enum AccessModifier
     {
         PUBLIC,
@@ -19,11 +20,12 @@ public:
     };
 
 public:
+    // Конструктор класса, принимающий имя класса
     ClassUnit(const std::string& name): m_name(name){}
-protected:
-    std::string m_name;
-    using Fields = std::vector<std::shared_ptr<Unit>>;
-    std::vector< Fields > m_fields;
-};
 
+protected:
+    std::string m_name; // Имя класса
+    using Fields = std::vector<std::shared_ptr<Unit>>; // Вектор элементов класса
+    std::vector< Fields > m_fields; // Вектор векторов элементов класса
+};
 #endif // CLASSUNIT_H

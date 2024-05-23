@@ -6,11 +6,13 @@
 class cpp_print_operator_unit:public PrintOperatorUnit
 {
 public:
+    // Конструктор класса, принимающий текст для вывода
     cpp_print_operator_unit(const std::string& text):PrintOperatorUnit(text){}
 
-
-    std::string compile(unsigned int level = 0)const// function to compile definition of function
+    // Метод компиляции оператора вывода с учетом уровня вложенности
+    std::string compile(unsigned int level = 0)const
     {
+        // Генерируем отступ, соответствующий уровню вложенности
         return generateShift(level) + "printf( \"" + m_text + "\" );\n";
     }
 };
